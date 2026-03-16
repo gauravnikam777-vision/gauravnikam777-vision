@@ -9,7 +9,7 @@
   <a href="https://www.linkedin.com/in/gaurav-nikam-44842a345">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://kaggle.com/YOUR-KAGGLE-USERNAME">
+  <a href="https://www.kaggle.com/gnikam9211">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
   </a>
   <a href="mailto:gauravnikam072@gmail.com">
@@ -66,7 +66,7 @@ I'm a fresher data analyst from Pune actively building real-world skills and pro
 
 ## 📁 Projects
 
-### ⚡ [SuperStore Power BI Sales Forecast Dashboard](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-ForecastSuperStore-PowerBI-Sales-Forecast)
+### ⚡ [SuperStore Power BI Sales Forecast Dashboard](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 > Power BI dashboard with 20-day sales forecasting using the SuperStore dataset
 - Built interactive dashboard with sales trends, regional breakdown, category performance
 - Implemented 20-day sales forecast using Power BI's built-in forecasting
@@ -90,6 +90,12 @@ I'm a fresher data analyst from Pune actively building real-world skills and pro
 ### 📊 [Trader Behavior Insights](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 > Analysis of trader behavior patterns from market data
 - **Tools:** Python, pandas, Matplotlib, Jupyter Notebook
+
+---
+
+### 🌐 [CIP Project](https://github.com/gauravnikam777-vision/cip-project)
+> College industry project built with HTML
+- **Tools:** HTML, CSS
 
 ---
 
@@ -145,7 +151,7 @@ I update this table as I complete each milestone.
 
 - 💼 [LinkedIn — Gaurav Nikam](https://www.linkedin.com/in/gaurav-nikam-44842a345)
 - 📧 gauravnikam072@gmail.com
-- 🗂️ [Kaggle](https://kaggle.com/YOUR-KAGGLE-USERNAME)
+- 🗂️ [Kaggle](https://www.kaggle.com/gnikam9211)
 
 ---
 
