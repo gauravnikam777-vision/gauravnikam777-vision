@@ -1,103 +1,154 @@
-<h1 align="center">Hey, I'm Gaurav Govind Nikam 👋</h1>
+<h1 align="center">Hi, I'm Gaurav Govind Nikam 👋</h1>
 
 <p align="center">
-  <b>Data Analyst | E-commerce & Business Analytics | Pune, India</b><br/>
-  BBA-CA · MCA (pursuing) · SQL · Python · Power BI
+  <b>Aspiring Data Analyst · E-commerce Analytics · Pune, India</b><br/>
+  BBA-CA Graduate &nbsp;|&nbsp; MCA Student &nbsp;|&nbsp; Building in Public
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://kaggle.com/YOUR-KAGGLE"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/></a>
-  <a href="https://YOUR-PORTFOLIO-LINK"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/gaurav-nikam-44842a345">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://kaggle.com/YOUR-KAGGLE-USERNAME">
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+  </a>
+  <a href="mailto:gauravnikam072@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-## 🧭 About Me
+## 👨‍💻 About Me
 
-I'm a data analyst focused on **e-commerce analytics** — finding patterns in customer behavior, sales trends, and operational data that businesses can actually act on.
+I'm a fresher data analyst from Pune actively building real-world skills and projects from scratch — openly, on GitHub, every day.
 
-- 🎓 BBA-CA graduate | MCA student @ Pune
-- 📊 Building real projects with SQL, Python, and Power BI
-- 🛒 Domain focus: E-commerce (customer segmentation, sales analysis, A/B testing)
-- 🔍 I believe good analysis asks better questions, not just better queries
-- 📍 Based in Pune, Maharashtra | Open to remote roles
+- 🎓 **BBA-CA** (completed) · **MCA** (pursuing) — Pune, Maharashtra
+- 📊 Focused on **e-commerce analytics** — customer behavior, sales trends, A/B testing
+- 🔨 Currently: learning Advanced SQL, Python for EDA, and Statistics
+- 📈 I push something to GitHub every single day — no gaps, no shortcuts
+- 🎯 Goal: Land a Data Analyst role at an e-commerce company by end of 2026
+- 📬 Open to: **Fresher roles · Internships · Remote opportunities**
 
----
-
-## 🛠️ Tech Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-</p>
-
-| Area | Tools |
-|------|-------|
-| Data Analysis | Python (pandas, numpy, scipy) |
-| Databases | MySQL, PostgreSQL |
-| Visualization | Power BI, Matplotlib, Seaborn |
-| Spreadsheets | Excel (Pivot Tables, Power Query) |
-| Version Control | Git, GitHub |
+> *"I don't have years of experience yet. What I have is consistency, real learning, and work you can verify."*
 
 ---
 
-## 📁 Featured Projects
+## 🛠️ Skills
 
-### 🛍️ [E-commerce Sales Performance Dashboard](https://github.com/YOUR-USERNAME/ecommerce-sales-dashboard)
-> Power BI dashboard on 100,000+ real orders from Olist (Brazil's largest e-commerce platform)
-- Analyzed monthly revenue trends, top product categories, delivery performance
-- Found that 3 product categories drive 40% of total revenue
-- **Tools:** Power BI, DAX, Python
+**Languages & Libraries**
 
-### 👥 [Customer Segmentation & RFM Analysis](https://github.com/YOUR-USERNAME/customer-segmentation-rfm)
-> Full workflow — SQL extraction → Python analysis → Power BI dashboard
-- Segmented customers into 5 groups using RFM scoring
-- Identified high-churn-risk customers = 18% of base
-- **Tools:** SQL, Python (pandas), Power BI
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-### 🧪 [A/B Test Analysis — Discount Strategy](https://github.com/YOUR-USERNAME/ab-test-discount-analysis)
-> Simulated and analyzed A/B test to determine which discount strategy drives more revenue
-- Used hypothesis testing with 95% confidence interval
-- Discount Strategy B outperformed A by 12% in revenue per user
-- **Tools:** Python (scipy.stats, pandas), Matplotlib
+**Tools & Platforms**
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+**What I can actually do right now:**
+
+| Skill | Level | Honest Note |
+|---|---|---|
+| Python (pandas, numpy) | Intermediate | EDA, data cleaning, analysis |
+| SQL | Basic–Intermediate | SELECT, JOINs, GROUP BY — learning window functions |
+| Power BI | Intermediate | Built SuperStore dashboard with forecasting |
+| Excel | Intermediate | Pivot tables, VLOOKUP, basic Power Query |
+| Tableau | Beginner | Learning |
+| Statistics | Learning | A/B testing, hypothesis testing — in progress |
+
+---
+
+## 📁 Projects
+
+### ⚡ [SuperStore Power BI Sales Forecast Dashboard](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-ForecastSuperStore-PowerBI-Sales-Forecast)
+> Power BI dashboard with 20-day sales forecasting using the SuperStore dataset
+- Built interactive dashboard with sales trends, regional breakdown, category performance
+- Implemented 20-day sales forecast using Power BI's built-in forecasting
+- **Tools:** Power BI, DAX
+
+---
+
+### 🩺 [Diabetes Prediction App](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+> Streamlit web app for diabetes prediction using XGBoost
+- End-to-end ML project: data cleaning → model training → deployed web app
+- **Tools:** Python, XGBoost, Streamlit, pandas
+
+---
+
+### 📉 [Customer Churn Prediction](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+> Predicting customer churn using classification models
+- **Tools:** Python, pandas, scikit-learn, Jupyter Notebook
+
+---
+
+### 📊 [Trader Behavior Insights](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+> Analysis of trader behavior patterns from market data
+- **Tools:** Python, pandas, Matplotlib, Jupyter Notebook
+
+---
+
+## 🏗️ Currently Building (Month 1 — E-commerce Roadmap)
+
+| What | Status |
+|---|---|
+| Advanced SQL — window functions, CTEs | 🔨 In Progress |
+| Python EDA on Olist E-commerce Dataset (100K+ orders) | 🔜 Starting Week 3 |
+| Statistics & A/B Testing foundations | 🔜 Month 4 |
+| Power BI E-commerce Sales Dashboard | 🔜 Month 2 |
+| Customer Segmentation + RFM Analysis | 🔜 Month 3 |
+
+I update this table as I complete each milestone.
+
+---
+
+## 🏅 Certifications
+
+| Certificate | Issuer | Year |
+|---|---|---|
+| Artificial Intelligence: Concepts & Techniques | NPTEL | Oct 2025 |
+| Machine Learning with Python | Anaconda | Nov 2025 |
+| Machine Learning Statistical Foundations | Wolfram Research | Nov 2025 |
+| Microsoft Azure AI Essentials | Microsoft | Nov 2025 |
+| Microsoft Azure Data Engineer Associate (DP-203) Prep | LinkedIn / Microsoft Press | Nov 2025 |
+| Introduction to Large Language Models | Google | Jul 2025 |
+| Introduction to Generative AI | Google | Jul 2025 |
+| British Airways Data Science Job Simulation | Forage | Jun 2025 |
+| Deloitte Australia Data Analytics Job Simulation | Forage | Jun 2025 |
+| Python 101 for Data Science | IBM | Jun 2025 |
+| Data Science Tools | IBM | Jun 2025 |
+| Data Science 101 | IBM | Jun 2025 |
+| Python Programming and SQL | ExcelR | Oct 2022 |
+| Advanced Excel, PowerPoint & Word | ExcelR | Nov 2022 |
 
 ---
 
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=default&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=default&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=gauravnikam777-vision&show_icons=true&theme=default&hide_border=true&count_private=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravnikam777-vision&layout=compact&theme=default&hide_border=true" height="150"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-USERNAME&theme=default&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gauravnikam777-vision&theme=default&hide_border=true"/>
 </p>
 
 ---
 
-## 📅 Currently Working On
+## 📫 Connect With Me
 
-- 🔨 Building e-commerce EDA notebook on Olist dataset (Week 3, Month 1)
-- 📖 Deepening SQL window functions & CTEs
-- 🏅 Pursuing Google Data Analytics Certificate
-
----
-
-## 📫 Let's Connect
-
-If you're a recruiter, analyst, or just someone interested in data — feel free to connect.
-
-- 💼 [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN)
-- 📧 your.email@gmail.com
-- 🌐 [Portfolio](https://YOUR-PORTFOLIO-LINK)
+- 💼 [LinkedIn — Gaurav Nikam](https://www.linkedin.com/in/gaurav-nikam-44842a345)
+- 📧 gauravnikam072@gmail.com
+- 🗂️ [Kaggle](https://kaggle.com/YOUR-KAGGLE-USERNAME)
 
 ---
 
-<p align="center"><i>"Data tells a story. My job is to find it and tell it clearly."</i></p>
+<p align="center">
+  <i>Fresher. Consistent. Building every day. — Pune, Maharashtra 🇮🇳</i>
+</p>
