@@ -65,115 +65,52 @@
 ## 🚀 Live Projects — Click & Try
 
 <!-- PROJECTS:START -->
+### 📉 [Customer Churn Prediction](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+> End-to-end ML system — 1,769 of 7,043 customers flagged as High Risk
 
-<div align="center">
+[![Live App](https://img.shields.io/badge/Live%20App-Online-brightgreen?style=flat-square)](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
-<table>
-<tr>
+Month-to-month contract customers churn at **3× the rate** of annual customers. FastAPI backend + Streamlit dashboard with High/Medium/Low risk tiers.
 
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_01-📉_Customer_Churn-FF4757?style=for-the-badge"/>
+*Last updated: Mar 2026*
 
-**[🔴 LIVE → Try it now](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)**
+---
 
-Upload data → Get predictions instantly
+### 🩺 [Diabetes Risk Predictor](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+> Live ML app — enter health metrics, get diabetes risk probability instantly
 
-```
-📦 7,043 customers analyzed
-🔴 1,769 flagged High Risk  
-🟡 1,733 flagged Medium Risk
-🟢 3,541 flagged Low Risk
-```
+[![Live App](https://img.shields.io/badge/Live%20App-Online-brightgreen?style=flat-square)](https://diabetes-prediction-app-pro.streamlit.app/)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-FF6600?style=flat-square) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Stars](https://img.shields.io/github/stars/gauravnikam777-vision/diabetes-prediction-app?style=flat-square&color=yellow)
 
-**Key Finding:**
-> Month-to-month customers churn
-> at **3× the rate** of annual holders
+Blood glucose is the **strongest single predictor** — patients with glucose >140 mg/dL appear in the diabetic group at dramatically higher rates even controlling for BMI and age.
 
-`FastAPI` `Streamlit` `Logistic Regression` `scikit-learn`
+*Last updated: Mar 2026*
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+---
 
-</td>
+### ⚡ [SuperStore Sales Dashboard & Forecasting](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+> Power BI dashboard + Python EDA revealing profit leaks and 20-day forecast
 
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_02-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![DAX](https://img.shields.io/badge/-DAX-0078D4?style=flat-square)
 
-**[🟢 LIVE → Try it now](https://diabetes-prediction-app-pro.streamlit.app/)**
+Tables sub-category was **losing money** on every sale despite appearing in revenue reports. Discounts above 20% consistently destroy margin.
 
-Upload data → Get predictions instantly
+*Last updated: Mar 2026*
 
-```
-📦 100,000 patient records
-🎯 XGBoost Classifier
-⚡ Real-time probability score
-🔬 High / Moderate / Low risk tiers
-```
+---
 
-**Key Finding:**
-> Blood glucose alone predicts diabetes
-> better than BMI + age combined
+### 📈 [Trader Behavior Insights](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+> Behavioral analysis of 90K+ crypto trades under Fear vs Greed conditions
 
-`XGBoost` `Streamlit` `sklearn Pipeline`
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+**Discipline, not market conditions**, separates profitable traders. High-frequency trading during Fear periods consistently predicts negative PnL.
 
-</td>
+*Last updated: Mar 2026*
 
-</tr>
-<tr>
-
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_03-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
-
-**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
-
-Analysis · Insights · Business Recommendations
-
-```
-🔴 Tables: negative profit margin
-⚠️ Discounts >20% destroy margin
-🗺️ West = highest profit region
-📈 Q4 seasonality pattern found
-```
-
-**Key Finding:**
-> Business was losing money on Tables
-> while it appeared in revenue reports
-
-`Power BI` `DAX` `Python` `ETS Forecasting`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
-
-</td>
-
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_04-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
-
-**[View Project →](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)**
-
-Analysis · Insights · Business Recommendations
-
-```
-🟢 Profitable traders: stable across both
-🔴 Undisciplined traders: blow up in Fear
-📉 High frequency + Fear = negative PnL
-🧠 Discipline > market conditions
-```
-
-**Key Finding:**
-> Market sentiment does NOT explain
-> why traders fail — behavior does
-
-`Python` `Pandas` `Seaborn` `Matplotlib`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
-
-</td>
-
-</tr>
-</table>
-
-</div>
+---
 <!-- PROJECTS:END -->
 
 ---
