@@ -1,5 +1,5 @@
-<center># Hi, I'm Gaurav Govind Nikam 👋</center>
-
+Hi, I'm Gaurav Govind Nikam 👋
+  
 <div align="center">
 
 **Aspiring Data Analyst · E-commerce Analytics · Pune, India 🇮🇳**
