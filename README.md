@@ -1,4 +1,4 @@
-# Hi, I'm Gaurav Govind Nikam 👋
+<center># Hi, I'm Gaurav Govind Nikam 👋</center>
 
 <div align="center">
 
