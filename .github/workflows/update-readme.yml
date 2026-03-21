@@ -1,0 +1,49 @@
+name: Update Profile README
+
+on:
+  # Run every day at 6 AM IST (12:30 AM UTC)
+  schedule:
+    - cron: '30 0 * * *'
+
+  # Run whenever you push to this repo
+  push:
+    branches: [main]
+
+  # Run whenever ANY of your repos gets a push
+  repository_dispatch:
+    types: [repo-updated]
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run README updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: gauravnikam777-vision
+        run: python update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🤖 Auto-update README [$(date +'%Y-%m-%d %H:%M')]"
+          git push
