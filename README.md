@@ -17,17 +17,13 @@
 
 ## 🧠 About Me
 
-```python
-gaurav = {
-    "role"      : "Aspiring Data Analyst",
-    "education" : ["BBA-CA (Graduate)", "MCA (Pursuing) @ SPPU Pune"],
-    "focus"     : "E-commerce Analytics",
-    "skills"    : ["SQL", "Python", "Power BI", "Machine Learning"],
-    "building"  : ["Deployed ML Apps", "SQL Analysis", "BI Dashboards"],
-    "goal"      : "Data Analyst role at an e-commerce company",
-    "status"    : "Open to Work 🟢"
-}
-```
+I'm a fresher **Data Analyst** from Pune building real, end-to-end projects — not tutorials.
+
+- 🎓 **BBA-CA** (completed) · **MCA** (pursuing) @ Sinhgad Institute, SPPU Pune
+- 📊 Focused on **e-commerce analytics** — customer behavior, sales patterns, retention
+- 🚀 Built & deployed ML apps using Python, XGBoost, Streamlit, FastAPI
+- 🎯 Goal: Data Analyst role at an e-commerce company
+- 📬 **Open to:** Fresher roles · Internships · Remote opportunities 🟢
 
 > *"I don't have years of experience yet. What I have is consistency, real learning, and work you can verify."*
 
@@ -40,11 +36,11 @@ gaurav = {
 > End-to-end ML system — 1,769 of 7,043 customers flagged as High Risk
 
 [![Live App](https://img.shields.io/badge/Live%20App-Online-brightgreen?style=flat-square)](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
 Month-to-month contract customers churn at **3× the rate** of annual customers. FastAPI backend + Streamlit dashboard with High/Medium/Low risk tiers.
-
-*Last updated: Mar 2026*
 
 ---
 
@@ -52,36 +48,32 @@ Month-to-month contract customers churn at **3× the rate** of annual customers.
 > Live ML app — enter health metrics, get diabetes risk probability instantly
 
 [![Live App](https://img.shields.io/badge/Live%20App-Online-brightgreen?style=flat-square)](https://diabetes-prediction-app-pro.streamlit.app/)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-FF6600?style=flat-square) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Stars](https://img.shields.io/github/stars/gauravnikam777-vision/diabetes-prediction-app?style=flat-square&color=yellow)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/-XGBoost-FF6600?style=flat-square)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 Blood glucose is the **strongest single predictor** — patients with glucose >140 mg/dL appear in the diabetic group at dramatically higher rates even controlling for BMI and age.
-
-*Last updated: Mar 2026*
 
 ---
 
 ### ⚡ [SuperStore Sales Dashboard & Forecasting](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 > Power BI dashboard + Python EDA revealing profit leaks and 20-day forecast
 
-![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![DAX](https://img.shields.io/badge/-DAX-0078D4?style=flat-square)
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![DAX](https://img.shields.io/badge/-DAX-0078D4?style=flat-square)
 
 Tables sub-category was **losing money** on every sale despite appearing in revenue reports. Discounts above 20% consistently destroy margin.
-
-*Last updated: Mar 2026*
 
 ---
 
 ### 📈 [Trader Behavior Insights](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 > Behavioral analysis of 90K+ crypto trades under Fear vs Greed conditions
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 **Discipline, not market conditions**, separates profitable traders. High-frequency trading during Fear periods consistently predicts negative PnL.
-
-*Last updated: Mar 2026*
-
----
 <!-- PROJECTS:END -->
 
 ---
@@ -148,7 +140,5 @@ Tables sub-category was **losing money** on every sale despite appearing in reve
 <div align="center">
 
 **Fresher · Consistent · Building in Public — Pune, Maharashtra 🇮🇳**
-
-*Auto-updated by GitHub Actions*
 
 </div>
