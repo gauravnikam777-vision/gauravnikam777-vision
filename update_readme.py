@@ -3,19 +3,14 @@ update_readme.py
 ================
 Auto-updates the GitHub profile README with:
 - Latest project stats (stars, last updated)
-- Current "working on" status from repo activity
-- Last updated timestamp
-
-Runs via GitHub Actions daily + on every push.
+- Runs via GitHub Actions daily + on every push
 """
 
 import os
 import re
-import json
 import requests
 from datetime import datetime, timezone
 
-# ── Config ────────────────────────────────────────────────────
 USERNAME = os.environ.get("GITHUB_USERNAME", "gauravnikam777-vision")
 TOKEN    = os.environ.get("GITHUB_TOKEN", "")
 
@@ -24,47 +19,68 @@ HEADERS = {
     "Accept": "application/vnd.github.v3+json"
 }
 
-# Projects to track — in display order
 TRACKED_REPOS = [
     {
-        "repo"       : "customer-churn-prediction",
-        "emoji"      : "📉",
-        "title"      : "Customer Churn Prediction",
-        "subtitle"   : "End-to-end ML system — 1,769 of 7,043 customers flagged as High Risk",
-        "live_link"  : "https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/",
-        "badges"     : "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)",
-        "insight"    : "Month-to-month contract customers churn at **3× the rate** of annual customers. FastAPI backend + Streamlit dashboard with High/Medium/Low risk tiers."
+        "repo"      : "customer-churn-prediction",
+        "badge"     : "PROJECT_01-📉_Customer_Churn-FF4757",
+        "title"     : "Customer Churn Prediction",
+        "live_link" : "https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/",
+        "live_text" : "🔴 LIVE → Try it now",
+        "stats_block": """```
+📦 7,043 customers analyzed
+🔴 1,769 flagged High Risk  
+🟡 1,733 flagged Medium Risk
+🟢 3,541 flagged Low Risk
+```""",
+        "finding"   : "Month-to-month customers churn\n> at **3× the rate** of annual holders",
+        "tags"      : "`FastAPI` `Streamlit` `Logistic Regression` `scikit-learn`"
     },
     {
-        "repo"       : "diabetes-prediction-app",
-        "emoji"      : "🩺",
-        "title"      : "Diabetes Risk Predictor",
-        "subtitle"   : "Live ML app — enter health metrics, get diabetes risk probability instantly",
-        "live_link"  : "https://diabetes-prediction-app-pro.streamlit.app/",
-        "badges"     : "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-FF6600?style=flat-square) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)",
-        "insight"    : "Blood glucose is the **strongest single predictor** — patients with glucose >140 mg/dL appear in the diabetic group at dramatically higher rates even controlling for BMI and age."
+        "repo"      : "diabetes-prediction-app",
+        "badge"     : "PROJECT_02-🩺_Diabetes_Risk-2ED573",
+        "title"     : "Diabetes Risk Predictor",
+        "live_link" : "https://diabetes-prediction-app-pro.streamlit.app/",
+        "live_text" : "🟢 LIVE → Try it now",
+        "stats_block": """```
+📦 100,000 patient records
+🎯 XGBoost Classifier
+⚡ Real-time probability score
+🔬 High / Moderate / Low risk tiers
+```""",
+        "finding"   : "Blood glucose alone predicts diabetes\n> better than BMI + age combined",
+        "tags"      : "`XGBoost` `Streamlit` `sklearn Pipeline`"
     },
     {
-        "repo"       : "SuperStore-PowerBI-Sales-Forecast",
-        "emoji"      : "⚡",
-        "title"      : "SuperStore Sales Dashboard & Forecasting",
-        "subtitle"   : "Power BI dashboard + Python EDA revealing profit leaks and 20-day forecast",
-        "live_link"  : None,
-        "badges"     : "![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![DAX](https://img.shields.io/badge/-DAX-0078D4?style=flat-square)",
-        "insight"    : "Tables sub-category was **losing money** on every sale despite appearing in revenue reports. Discounts above 20% consistently destroy margin."
+        "repo"      : "SuperStore-PowerBI-Sales-Forecast",
+        "badge"     : "PROJECT_03-⚡_SuperStore_BI-FFA502",
+        "title"     : "SuperStore Sales Dashboard",
+        "live_link" : None,
+        "stats_block": """```
+🔴 Tables: negative profit margin
+⚠️ Discounts >20% destroy margin
+🗺️ West = highest profit region
+📈 Q4 seasonality pattern found
+```""",
+        "finding"   : "Business was losing money on Tables\n> while it appeared in revenue reports",
+        "tags"      : "`Power BI` `DAX` `Python` `ETS Forecasting`"
     },
     {
-        "repo"       : "Trader-Behavior-Insights",
-        "emoji"      : "📈",
-        "title"      : "Trader Behavior Insights",
-        "subtitle"   : "Behavioral analysis of 90K+ crypto trades under Fear vs Greed conditions",
-        "live_link"  : None,
-        "badges"     : "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)",
-        "insight"    : "**Discipline, not market conditions**, separates profitable traders. High-frequency trading during Fear periods consistently predicts negative PnL."
+        "repo"      : "Trader-Behavior-Insights",
+        "badge"     : "PROJECT_04-📈_Trader_Behavior-1E90FF",
+        "title"     : "Trader Behavior Insights",
+        "live_link" : None,
+        "stats_block": """```
+🟢 Profitable traders: stable across both
+🔴 Undisciplined traders: blow up in Fear
+📉 High frequency + Fear = negative PnL
+🧠 Discipline > market conditions
+```""",
+        "finding"   : "Market sentiment does NOT explain\n> why traders fail — behavior does",
+        "tags"      : "`Python` `Pandas` `Seaborn` `Matplotlib`"
     },
 ]
 
-# ── Fetch repo stats from GitHub API ──────────────────────────
+
 def get_repo_stats(repo_name):
     url = f"https://api.github.com/repos/{USERNAME}/{repo_name}"
     r = requests.get(url, headers=HEADERS)
@@ -72,84 +88,71 @@ def get_repo_stats(repo_name):
         data = r.json()
         return {
             "stars"      : data.get("stargazers_count", 0),
-            "forks"      : data.get("forks_count", 0),
-            "updated_at" : data.get("pushed_at", ""),
-            "language"   : data.get("language", ""),
+            "pushed_at"  : data.get("pushed_at", ""),
         }
-    return {"stars": 0, "forks": 0, "updated_at": "", "language": ""}
+    return {"stars": 0, "pushed_at": ""}
 
 
-# ── Build PROJECTS section ─────────────────────────────────────
 def build_projects_section():
-    lines = []
-    for proj in TRACKED_REPOS:
-        stats = get_repo_stats(proj["repo"])
-        repo_url = f"https://github.com/{USERNAME}/{proj['repo']}"
+    rows = []
+    pairs = [(TRACKED_REPOS[i], TRACKED_REPOS[i+1] if i+1 < len(TRACKED_REPOS) else None)
+             for i in range(0, len(TRACKED_REPOS), 2)]
 
-        # Parse last updated
-        try:
-            dt = datetime.fromisoformat(stats["updated_at"].replace("Z", "+00:00"))
-            last_updated = dt.strftime("%b %Y")
-        except:
-            last_updated = ""
+    for left, right in pairs:
+        left_cell  = build_project_cell(left)
+        right_cell = build_project_cell(right) if right else "<td width='50%'></td>"
+        rows.append(f"<tr>\n\n{left_cell}\n\n{right_cell}\n\n</tr>")
 
-        # Stars badge
-        stars_badge = ""
-        if stats["stars"] > 0:
-            stars_badge = f"![Stars](https://img.shields.io/github/stars/{USERNAME}/{proj['repo']}?style=flat-square&color=yellow)"
-
-        # Live app badge
-        live_badge = ""
-        if proj.get("live_link"):
-            live_badge = f"[![Live App](https://img.shields.io/badge/Live%20App-Online-brightgreen?style=flat-square)]({proj['live_link']})"
-
-        lines.append(f"### {proj['emoji']} [{proj['title']}]({repo_url})")
-        lines.append(f"> {proj['subtitle']}")
-        lines.append("")
-        if live_badge:
-            lines.append(live_badge)
-        lines.append(proj["badges"])
-        if stars_badge:
-            lines.append(stars_badge)
-        lines.append("")
-        lines.append(proj["insight"])
-        if last_updated:
-            lines.append(f"\n*Last updated: {last_updated}*")
-        lines.append("")
-        lines.append("---")
-        lines.append("")
-
-    return "\n".join(lines).rstrip()
+    return "<table>\n" + "\n".join(rows) + "\n</table>"
 
 
-# ── Build STATUS section ───────────────────────────────────────
-def build_status_section():
-    now = datetime.now(timezone.utc).strftime("%d %B %Y")
-    return f"""- 🔨 **Olist E-Commerce SQL Analysis** — 18 business queries, CTEs, window functions
-- 🔨 **RFM Customer Segmentation** — 90K+ customers into Champions, At-Risk, Lost
-- 📚 **Statistics & A/B Testing** — building foundations
-- 🕐 *README last auto-updated: {now}*"""
+def build_project_cell(proj):
+    if not proj:
+        return "<td width='50%'></td>"
+
+    stats    = get_repo_stats(proj["repo"])
+    repo_url = f"https://github.com/{USERNAME}/{proj['repo']}"
+
+    # Stars badge
+    stars_line = ""
+    if stats["stars"] > 0:
+        stars_line = f"\n⭐ {stats['stars']} stars"
+
+    # Live button or GitHub button
+    if proj.get("live_link"):
+        action_btn = f"**[{proj['live_text']}]({proj['live_link']})**"
+        sub_text   = f"Upload data → Get predictions instantly{stars_line}"
+    else:
+        action_btn = f"**[View Project →]({repo_url})**"
+        sub_text   = f"Analysis · Insights · Business Recommendations{stars_line}"
+
+    return f"""<td align="center" width="50%">
+<img src="https://img.shields.io/badge/{proj['badge']}?style=for-the-badge"/>
+
+{action_btn}
+
+{sub_text}
+
+{proj['stats_block']}
+
+**Key Finding:**
+> {proj['finding']}
+
+{proj['tags']}
+
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)]({repo_url})
+
+</td>"""
 
 
-# ── Update README ──────────────────────────────────────────────
 def update_readme():
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Replace PROJECTS section
     projects_content = build_projects_section()
     content = re.sub(
         r"<!-- PROJECTS:START -->.*?<!-- PROJECTS:END -->",
-        f"<!-- PROJECTS:START -->\n{projects_content}\n<!-- PROJECTS:END -->",
-        content,
-        flags=re.DOTALL
-    )
-
-    # Replace STATUS section
-    status_content = build_status_section()
-    content = re.sub(
-        r"<!-- STATUS:START -->.*?<!-- STATUS:END -->",
-        f"<!-- STATUS:START -->\n{status_content}\n<!-- STATUS:END -->",
+        f"<!-- PROJECTS:START -->\n\n<div align=\"center\">\n\n{projects_content}\n\n</div>\n<!-- PROJECTS:END -->",
         content,
         flags=re.DOTALL
     )
@@ -157,10 +160,9 @@ def update_readme():
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
 
-    print("✅ README.md updated successfully!")
+    print("✅ README.md updated!")
 
 
-# ── Main ──────────────────────────────────────────────────────
 if __name__ == "__main__":
-    print(f"Fetching data for {USERNAME}...")
+    print(f"🔄 Updating README for {USERNAME}...")
     update_readme()
