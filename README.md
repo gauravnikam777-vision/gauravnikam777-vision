@@ -40,11 +40,11 @@ gaurav = {
 > End-to-end ML system — 1,769 of 7,043 customers flagged as High Risk
 
 [![Live App](https://img.shields.io/badge/Live%20App-Online-brightgreen?style=flat-square)](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
 Month-to-month contract customers churn at **3× the rate** of annual customers. FastAPI backend + Streamlit dashboard with High/Medium/Low risk tiers.
-
-*Last updated: Mar 2026*
 
 ---
 
@@ -52,36 +52,32 @@ Month-to-month contract customers churn at **3× the rate** of annual customers.
 > Live ML app — enter health metrics, get diabetes risk probability instantly
 
 [![Live App](https://img.shields.io/badge/Live%20App-Online-brightgreen?style=flat-square)](https://diabetes-prediction-app-pro.streamlit.app/)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-FF6600?style=flat-square) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Stars](https://img.shields.io/github/stars/gauravnikam777-vision/diabetes-prediction-app?style=flat-square&color=yellow)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/-XGBoost-FF6600?style=flat-square)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 Blood glucose is the **strongest single predictor** — patients with glucose >140 mg/dL appear in the diabetic group at dramatically higher rates even controlling for BMI and age.
-
-*Last updated: Mar 2026*
 
 ---
 
 ### ⚡ [SuperStore Sales Dashboard & Forecasting](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 > Power BI dashboard + Python EDA revealing profit leaks and 20-day forecast
 
-![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![DAX](https://img.shields.io/badge/-DAX-0078D4?style=flat-square)
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![DAX](https://img.shields.io/badge/-DAX-0078D4?style=flat-square)
 
 Tables sub-category was **losing money** on every sale despite appearing in revenue reports. Discounts above 20% consistently destroy margin.
-
-*Last updated: Mar 2026*
 
 ---
 
 ### 📈 [Trader Behavior Insights](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 > Behavioral analysis of 90K+ crypto trades under Fear vs Greed conditions
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 **Discipline, not market conditions**, separates profitable traders. High-frequency trading during Fear periods consistently predicts negative PnL.
-
-*Last updated: Mar 2026*
-
----
 <!-- PROJECTS:END -->
 
 ---
@@ -145,21 +141,10 @@ Tables sub-category was **losing money** on every sale despite appearing in reve
 
 ---
 
-## 🎯 Currently Working On
-
-<!-- STATUS:START -->
-- 🔨 **Olist E-Commerce SQL Analysis** — 18 business queries, CTEs, window functions
-- 🔨 **RFM Customer Segmentation** — 90K+ customers into Champions, At-Risk, Lost
-- 📚 **Statistics & A/B Testing** — building foundations
-- 🕐 *README last auto-updated: 21 March 2026*
-<!-- STATUS:END -->
-
----
-
 <div align="center">
 
 **Fresher · Consistent · Building in Public — Pune, Maharashtra 🇮🇳**
 
-*Last auto-updated: by GitHub Actions*
+*Auto-updated by GitHub Actions*
 
 </div>
