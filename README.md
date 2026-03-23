@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,25,30&height=220&section=header&text=Gaurav%20Govind%20Nikam&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Data%20Analyst%20%7C%20ML%20Engineer%20%7C%20Business%20Intelligence&descAlignY=58&descSize=17&descColor=a8d8ff"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=0,2,8,16,24&height=200&section=header&text=Gaurav%20Govind%20Nikam&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Data%20Analyst%20%7C%20ML%20Engineer%20%7C%20Business%20Intelligence&descAlignY=62&descSize=17&descColor=a8d8ff"/>
 </div>
 
 <div align="center">
@@ -26,7 +26,7 @@
 
 ---
 
-<img align="right" width="380" src="https://media.giphy.com/media/xUA7b1MxpngddUvdMc/giphy.gif" alt="data analysis gif"/>
+<img align="right" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
 
 ## 👋 I'm Gaurav — Data Analyst
 
@@ -55,21 +55,21 @@
 
 ## 🔄 How I Work With Data
 
-<div align="center">
+```mermaid
+flowchart LR
+    A([📥 Raw Data]) -->|SQL / CSV| B([🧹 Clean & Prep])
+    B -->|Pandas · NumPy| C([🔍 EDA & Stats])
+    C -->|Seaborn · Matplotlib| D([🤖 ML Model])
+    D -->|XGBoost · sklearn| E([📊 Deploy & Visualize])
+    E -->|Streamlit · Power BI| F([✅ Business Decision])
 
+    style A fill:#0d1117,stroke:#58A6FF,color:#58A6FF
+    style B fill:#0d1117,stroke:#FF6B6B,color:#FF6B6B
+    style C fill:#0d1117,stroke:#4ECDC4,color:#4ECDC4
+    style D fill:#0d1117,stroke:#FFE66D,color:#FFE66D
+    style E fill:#0d1117,stroke:#A8E6CF,color:#A8E6CF
+    style F fill:#0d1117,stroke:#58A6FF,color:#58A6FF
 ```
-📥 RAW DATA
-    │
-    ▼
-┌─────────┐    ┌─────────┐    ┌──────────┐    ┌──────────┐    ┌───────────────┐
-│   SQL   │───▶│ Python  │───▶│   EDA    │───▶│  Model   │───▶│  Dashboard    │
-│ Extract │    │  Clean  │    │ Analyze  │    │ Predict  │    │  + Insight ✅  │
-└─────────┘    └─────────┘    └──────────┘    └──────────┘    └───────────────┘
-  SQLite         Pandas         Seaborn         XGBoost          Streamlit
-  MySQL          NumPy          Matplotlib      sklearn          Power BI
-```
-
-</div>
 
 ---
 
@@ -77,13 +77,32 @@
 
 <div align="center">
 
-| 😐 Most Freshers | ✅ Gaurav Nikam |
-|:---|:---|
-| Kaggle notebooks only | **2 live apps** — try them RIGHT NOW |
-| Learn from tutorials | **Real business insights** from real datasets |
-| Generic Titanic projects | **E-commerce & Healthcare** domains |
-| No deployment | **FastAPI + Streamlit + Vercel** deployed |
-| Only Python | **SQL + Python + Power BI + ML** stack |
+<table>
+<tr>
+<th>❌ What Most Freshers Do</th>
+<th>✅ What I Do Instead</th>
+</tr>
+<tr>
+<td>Submit Kaggle notebooks, call it a project</td>
+<td><b>2 live apps deployed</b> — anyone can open & use them right now</td>
+</tr>
+<tr>
+<td>Only know Python, nothing deployed</td>
+<td><b>Full stack:</b> SQL → Python → FastAPI → Streamlit → Power BI</td>
+</tr>
+<tr>
+<td>Generic datasets (Titanic, Iris)</td>
+<td><b>Real business domains:</b> Telecom churn, Healthcare, E-commerce</td>
+</tr>
+<tr>
+<td>Pretty charts, no business meaning</td>
+<td><b>Actual insights:</b> "Tables sub-category is losing money" — actionable</td>
+</tr>
+<tr>
+<td>14 certificates, 0 shipped products</td>
+<td><b>14 certificates + 2 live apps + verifiable GitHub</b> — everything public</td>
+</tr>
+</table>
 
 </div>
 
@@ -92,58 +111,61 @@
 ## 🚀 Projects — Live & Deployed
 
 <!-- PROJECTS:START -->
-
 <div align="center">
-
 <table>
 <tr>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_01-📉_Customer_Churn-FF4757?style=for-the-badge"/>
 
-**[🔴 LIVE → Try it now](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)**
+<img src="https://img.shields.io/badge/PROJECT%2001-FF6B6B?style=for-the-badge"/>
 
-Upload data → Get predictions instantly
+## 📉 Customer Churn Prediction
+
+[![▶ TRY LIVE APP](https://img.shields.io/badge/▶%20TRY%20LIVE%20APP-FF6B6B?style=for-the-badge&logo=streamlit&logoColor=white)](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)
 
 ```
-📦 7,043 customers analyzed
-🔴 1,769 flagged High Risk  
-🟡 1,733 flagged Medium Risk
-🟢 3,541 flagged Low Risk
+📦 Dataset : 7,043 customers
+🔴 High    : 1,769  (25.1%)
+🟡 Medium  : 1,733  (24.6%)
+🟢 Low     : 3,541  (50.3%)
 ```
 
-**Key Finding:**
 > Month-to-month customers churn
-> at **3× the rate** of annual holders
+> **3× faster** than annual holders
 
-`FastAPI` `Streamlit` `Logistic Regression` `scikit-learn`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![sklearn](https://img.shields.io/badge/sklearn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+[![Code](https://img.shields.io/badge/View%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gauravnikam777-vision/customer-churn-prediction)
 
 </td>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_02-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
 
-**[🟢 LIVE → Try it now](https://diabetes-prediction-app-pro.streamlit.app/)**
+<img src="https://img.shields.io/badge/PROJECT%2002-4ECDC4?style=for-the-badge"/>
 
-Upload data → Get predictions instantly
-⭐ 1 stars
+## 🩺 Diabetes Risk Predictor
+
+[![▶ TRY LIVE APP](https://img.shields.io/badge/▶%20TRY%20LIVE%20APP-4ECDC4?style=for-the-badge&logo=streamlit&logoColor=white)](https://diabetes-prediction-app-pro.streamlit.app/)
 
 ```
-📦 100,000 patient records
-🎯 XGBoost Classifier
-⚡ Real-time probability score
-🔬 High / Moderate / Low risk tiers
+📦 Dataset : 100,000 patients
+🤖 Model   : XGBoost Classifier
+⚡ Output  : Risk Probability %
+🔬 Tiers   : High / Moderate / Low
 ```
 
-**Key Finding:**
-> Blood glucose alone predicts diabetes
-> better than BMI + age combined
+> Blood glucose **alone** outperforms
+> BMI + Age as diabetes predictor
 
-`XGBoost` `Streamlit` `sklearn Pipeline`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![sklearn](https://img.shields.io/badge/sklearn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+[![Code](https://img.shields.io/badge/View%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
 
 </td>
 
@@ -151,56 +173,59 @@ Upload data → Get predictions instantly
 <tr>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_03-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
 
-**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
+<img src="https://img.shields.io/badge/PROJECT%2003-FFE66D?style=for-the-badge&logoColor=333"/>
 
-Analysis · Insights · Business Recommendations
+## ⚡ SuperStore Sales Dashboard
+
+[![View Project](https://img.shields.io/badge/View%20Project-FFE66D?style=for-the-badge&logoColor=333)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 
 ```
-🔴 Tables: negative profit margin
-⚠️ Discounts >20% destroy margin
-🗺️ West = highest profit region
-📈 Q4 seasonality pattern found
+📊 Tool    : Power BI + Python
+📅 Forecast: 20-day ETS
+🔴 Tables  : LOSS-MAKING sub-cat
+⚠️ Disc>20%: destroys margin
 ```
 
-**Key Finding:**
-> Business was losing money on Tables
-> while it appeared in revenue reports
+> Tables sub-cat was **losing money**
+> hidden inside revenue reports
 
-`Power BI` `DAX` `Python` `ETS Forecasting`
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+[![Code](https://img.shields.io/badge/View%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 
 </td>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_04-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
 
-**[View Project →](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)**
+<img src="https://img.shields.io/badge/PROJECT%2004-A8E6CF?style=for-the-badge&logoColor=333"/>
 
-Analysis · Insights · Business Recommendations
+## 📈 Trader Behavior Insights
+
+[![View Project](https://img.shields.io/badge/View%20Project-A8E6CF?style=for-the-badge&logoColor=333)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 
 ```
-🟢 Profitable traders: stable across both
-🔴 Undisciplined traders: blow up in Fear
-📉 High frequency + Fear = negative PnL
-🧠 Discipline > market conditions
+📦 Trades : 90,000+ analyzed
+📊 Index  : Fear & Greed merged
+🎯 Focus  : Behavioral patterns
+🧠 Result : Discipline wins
 ```
 
-**Key Finding:**
-> Market sentiment does NOT explain
-> why traders fail — behavior does
+> **Discipline, not market mood**,
+> separates profitable traders
 
-`Python` `Pandas` `Seaborn` `Matplotlib`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+[![Code](https://img.shields.io/badge/View%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 
 </td>
 
 </tr>
 </table>
-
 </div>
 <!-- PROJECTS:END -->
 
@@ -210,7 +235,7 @@ Analysis · Insights · Business Recommendations
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode,jupyter&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=python,git,github,vscode,jupyter&theme=dark"/>
 
 <br/><br/>
 
@@ -269,21 +294,29 @@ Tableau         ████████░░░░░░░░░░░░░�
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Profile Summary
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=gauravnikam777-vision&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gauravnikam777-vision&theme=tokyonight" width="100%"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gauravnikam777-vision&theme=tokyonight" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gauravnikam777-vision&theme=tokyonight" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gauravnikam777-vision&theme=tokyonight&utcOffset=5.5" width="32%"/>
 
 </div>
 
 ---
 
-## 😂 Dev Joke of the Day
+## 💬 What Great Analysts Say
 
 <div align="center">
 
-[![Jokes Card](https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder)](https://github.com/ABSphreak/readme-jokes)
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
 
 </div>
 
@@ -327,6 +360,6 @@ Tableau         ████████░░░░░░░░░░░░░�
 
 **📍 Pune, Maharashtra 🇮🇳 · Fresher · Consistent · Building in Public**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,25,30&height=100&section=footer&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=0,2,8,16,24&height=120&section=footer&animation=twinkling"/>
 
 </div>
