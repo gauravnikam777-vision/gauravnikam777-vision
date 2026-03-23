@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=FF6B6B&center=true&vCenter=true&width=700&lines=🎯+Aspiring+Data+Analyst+from+Pune;🛒+E-commerce+Analytics+Specialist;🚀+2+Live+ML+Apps+Deployed+%26+Running;💡+SQL+%7C+Python+%7C+Power+BI+%7C+XGBoost;🟢+Open+to+Work+%7C+Fresher+%7C+MCA+%40+SPPU)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=FF6B6B&center=true&vCenter=true&width=700&lines=🎯+Aspiring+Data+Analyst+from+Pune+🇮🇳;🛒+E-commerce+Analytics+Specialist;🚀+2+Live+ML+Apps+Deployed+%26+Running;💡+SQL+%7C+Python+%7C+Power+BI+%7C+XGBoost;🟢+Open+to+Work+%7C+Fresher+%7C+MCA+%40+SPPU)](https://git.io/typing-svg)
 
 </div>
 
@@ -14,7 +14,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logoColor=white)](https://gaurav-nikam-777.vercel.app)&nbsp;
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge)](https://gaurav-nikam-777.vercel.app)&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-nikam-44842a345)&nbsp;
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/gnikam9211)&nbsp;
 [![Gmail](https://img.shields.io/badge/Hire_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gauravnikam072@gmail.com)
@@ -27,7 +27,7 @@
 
 ---
 
-<img align="right" width="350" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdnbGVxb3N1OGlneHdnMnI1Z3Q1amkxeWUzZWwxeGYwdzV3NHVvNiZlcD12MV9pbnRlcm5hbGdfZ2lmX2J5X2lkJmN0PWc/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img align="right" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 ### 👋 Hi there! I'm Gaurav
 
@@ -37,7 +37,7 @@
 
 💻 I don't just learn — I **build and deploy**:
 - 2 live ML apps running on Streamlit Cloud
-- End-to-end projects: data → model → API → dashboard
+- End-to-end: data → model → API → dashboard
 - Real datasets, real business questions, real answers
 
 📍 Pune, Maharashtra 🇮🇳 &nbsp;|&nbsp; 🟢 **Open to Work**
@@ -48,136 +48,169 @@
 
 ---
 
-## 🚀 Featured Projects
-
-<!-- PROJECTS:START -->
+## 🔥 What Makes Me Different
 
 <div align="center">
 
+| 🚀 I Don't Just Learn | ✅ I Build & Deploy |
+|:---:|:---:|
+| Not just Kaggle notebooks | 2 live apps anyone can use right now |
+| Not just tutorials | Real business insights from real data |
+| Not just certificates | Verifiable GitHub history every day |
+
+</div>
+
+---
+
+## 🚀 Live Projects — Click & Try
+
+<!-- PROJECTS:START -->
+<div align="center">
 <table>
 <tr>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_01-📉_Customer_Churn-FF4757?style=for-the-badge"/>
 
-**[🔴 LIVE → Try it now](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)**
+<img src="https://img.shields.io/badge/PROJECT_01-📉_CHURN_PREDICTION-FF6B6B?style=for-the-badge"/>
 
-Upload data → Get predictions instantly
+### 📉 [Customer Churn Prediction](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+
+[![▶ TRY LIVE APP](https://img.shields.io/badge/▶%20TRY%20LIVE%20APP-FF6B6B?style=for-the-badge)](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)
 
 ```
-📦 7,043 customers analyzed
-🔴 1,769 flagged High Risk  
-🟡 1,733 flagged Medium Risk
-🟢 3,541 flagged Low Risk
+Total   : 7,043 customers
+🔴 High : 1,769  (25.1%)
+🟡 Med  : 1,733  (24.6%)
+🟢 Low  : 3,541  (50.3%)
 ```
 
-**Key Finding:**
-> Month-to-month customers churn
-> at **3× the rate** of annual holders
+💡 Month-to-month customers churn **3× faster** than annual holders
 
-`FastAPI` `Streamlit` `Logistic Regression` `scikit-learn`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-red?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-green?style=flat-square) ![sklearn](https://img.shields.io/badge/scikit--learn-orange?style=flat-square)
 
 </td>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_02-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
 
-**[🟢 LIVE → Try it now](https://diabetes-prediction-app-pro.streamlit.app/)**
+<img src="https://img.shields.io/badge/PROJECT_02-🩺_DIABETES_RISK-4ECDC4?style=for-the-badge"/>
 
-Upload data → Get predictions instantly
-⭐ 1 stars
+### 🩺 [Diabetes Risk Predictor](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+
+[![▶ TRY LIVE APP](https://img.shields.io/badge/▶%20TRY%20LIVE%20APP-4ECDC4?style=for-the-badge)](https://diabetes-prediction-app-pro.streamlit.app/)
 
 ```
-📦 100,000 patient records
-🎯 XGBoost Classifier
-⚡ Real-time probability score
-🔬 High / Moderate / Low risk tiers
+Dataset : 100,000 patients
+Model   : XGBoost Classifier
+Output  : Risk Probability %
+Tiers   : High / Moderate / Low
 ```
 
-**Key Finding:**
-> Blood glucose alone predicts diabetes
-> better than BMI + age combined
+💡 Blood glucose **alone** predicts diabetes better than BMI + age combined
 
-`XGBoost` `Streamlit` `sklearn Pipeline`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-orange?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-red?style=flat-square) ![sklearn](https://img.shields.io/badge/sklearn-yellow?style=flat-square)
 
 </td>
-
 </tr>
 <tr>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_03-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
 
-**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
+<img src="https://img.shields.io/badge/PROJECT_03-⚡_SUPERSTORE_BI-FFE66D?style=for-the-badge&logoColor=333"/>
 
-Analysis · Insights · Business Recommendations
+### ⚡ [SuperStore Sales Dashboard](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+
+[![View Project](https://img.shields.io/badge/View%20Project-FFE66D?style=for-the-badge&logoColor=333)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 
 ```
-🔴 Tables: negative profit margin
-⚠️ Discounts >20% destroy margin
-🗺️ West = highest profit region
-📈 Q4 seasonality pattern found
+Tool    : Power BI + Python EDA
+Forecast: 20-day ETS forecasting
+Finding : Tables = loss-making ❌
+Insight : Discount > 20% = loss
 ```
 
-**Key Finding:**
-> Business was losing money on Tables
-> while it appeared in revenue reports
+💡 Tables sub-category was **losing money silently** in revenue reports
 
-`Power BI` `DAX` `Python` `ETS Forecasting`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+![PowerBI](https://img.shields.io/badge/PowerBI-yellow?style=flat-square) ![Python](https://img.shields.io/badge/Python-blue?style=flat-square) ![DAX](https://img.shields.io/badge/DAX-purple?style=flat-square)
 
 </td>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_04-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
 
-**[View Project →](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)**
+<img src="https://img.shields.io/badge/PROJECT_04-📈_TRADER_BEHAVIOR-A8E6CF?style=for-the-badge&logoColor=333"/>
 
-Analysis · Insights · Business Recommendations
+### 📈 [Trader Behavior Insights](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+
+[![View Project](https://img.shields.io/badge/View%20Project-A8E6CF?style=for-the-badge&logoColor=333)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 
 ```
-🟢 Profitable traders: stable across both
-🔴 Undisciplined traders: blow up in Fear
-📉 High frequency + Fear = negative PnL
-🧠 Discipline > market conditions
+Data  : Hyperliquid + Fear&Greed
+Trades: 90,000+ analyzed
+Focus : Fear vs Greed behavior
+Result: Discipline > Conditions
 ```
 
-**Key Finding:**
-> Market sentiment does NOT explain
-> why traders fail — behavior does
+💡 **Discipline, not market conditions**, separates profitable traders
 
-`Python` `Pandas` `Seaborn` `Matplotlib`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square) ![Pandas](https://img.shields.io/badge/Pandas-purple?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-teal?style=flat-square)
 
 </td>
-
 </tr>
 </table>
-
 </div>
 <!-- PROJECTS:END -->
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Skills
 
 <div align="center">
 
-| 💻 Languages | 📊 Data & ML | 📈 Visualization | 🚀 Deployment |
-|:---:|:---:|:---:|:---:|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![sklearn](https://img.shields.io/badge/sklearn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square) | ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square) | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+**💻 Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**📊 Data & Machine Learning**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
+
+**📈 Visualization & BI**
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
+**🚀 Deployment & Tools**
+
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
+<br/>
+
+**📊 Skill Proficiency**
+
+```text
+Python          ████████████████████░░   82%
+SQL             ███████████████░░░░░░░   62%
+Power BI        ████████████████░░░░░░   68%
+Pandas / NumPy  ████████████████████░░   80%
+Machine Learning████████████████░░░░░░   65%
+Excel           ████████████████████░░   78%
+Tableau         ████████░░░░░░░░░░░░░░   38%
+Statistics      ████████████░░░░░░░░░░   52%
+```
+
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Activity
 
 <div align="center">
 
@@ -200,11 +233,35 @@ Analysis · Insights · Business Recommendations
 
 ---
 
-## 🏆 Trophies
+## 🏆 GitHub Trophies
 
 <div align="center">
 
 [![Trophies](https://github-profile-trophy.vercel.app/?username=gauravnikam777-vision&theme=radical&no-frame=true&no-bg=false&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 🐍 My Contributions Get Eaten!
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gauravnikam777-vision/gauravnikam777-vision/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gauravnikam777-vision/gauravnikam777-vision/output/github-snake.svg"/>
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/gauravnikam777-vision/gauravnikam777-vision/output/github-snake.svg"/>
+</picture>
+
+</div>
+
+---
+
+## 😂 Dev Joke of the Day
+
+<div align="center">
+
+[![Jokes Card](https://readme-jokes.vercel.app/api?theme=radical&hideBorder)](https://github.com/ABSphreak/readme-jokes)
 
 </div>
 
@@ -243,7 +300,7 @@ Analysis · Insights · Business Recommendations
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-nikam-44842a345)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/View_My_Portfolio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://gaurav-nikam-777.vercel.app)
+[![Portfolio](https://img.shields.io/badge/View_My_Portfolio-FF6B6B?style=for-the-badge)](https://gaurav-nikam-777.vercel.app)
 &nbsp;
 [![Email](https://img.shields.io/badge/Send_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gauravnikam072@gmail.com)
 
