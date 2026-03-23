@@ -65,115 +65,93 @@
 ## 🚀 Live Projects — Click & Try
 
 <!-- PROJECTS:START -->
-
 <div align="center">
-
 <table>
 <tr>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_01-📉_Customer_Churn-FF4757?style=for-the-badge"/>
 
-**[🔴 LIVE → Try it now](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)**
+<img src="https://img.shields.io/badge/PROJECT_01-📉_CHURN_PREDICTION-FF6B6B?style=for-the-badge"/>
 
-Upload data → Get predictions instantly
+### 📉 [Customer Churn Prediction](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+
+[![▶ TRY LIVE APP](https://img.shields.io/badge/▶%20TRY%20LIVE%20APP-FF6B6B?style=for-the-badge)](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)
 
 ```
-📦 7,043 customers analyzed
-🔴 1,769 flagged High Risk  
-🟡 1,733 flagged Medium Risk
-🟢 3,541 flagged Low Risk
+Total   : 7,043 customers
+🔴 High : 1,769  (25.1%)
+🟡 Med  : 1,733  (24.6%)
+🟢 Low  : 3,541  (50.3%)
 ```
 
-**Key Finding:**
-> Month-to-month customers churn
-> at **3× the rate** of annual holders
+💡 Month-to-month customers churn **3× faster** than annual holders
 
-`FastAPI` `Streamlit` `Logistic Regression` `scikit-learn`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-red?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-green?style=flat-square) ![sklearn](https://img.shields.io/badge/scikit--learn-orange?style=flat-square)
 
 </td>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_02-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
 
-**[🟢 LIVE → Try it now](https://diabetes-prediction-app-pro.streamlit.app/)**
+<img src="https://img.shields.io/badge/PROJECT_02-🩺_DIABETES_RISK-4ECDC4?style=for-the-badge"/>
 
-Upload data → Get predictions instantly
-⭐ 1 stars
+### 🩺 [Diabetes Risk Predictor](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+
+[![▶ TRY LIVE APP](https://img.shields.io/badge/▶%20TRY%20LIVE%20APP-4ECDC4?style=for-the-badge)](https://diabetes-prediction-app-pro.streamlit.app/)
 
 ```
-📦 100,000 patient records
-🎯 XGBoost Classifier
-⚡ Real-time probability score
-🔬 High / Moderate / Low risk tiers
+Dataset : 100,000 patients
+Model   : XGBoost Classifier
+Output  : Risk Probability %
+Tiers   : High / Moderate / Low
 ```
 
-**Key Finding:**
-> Blood glucose alone predicts diabetes
-> better than BMI + age combined
+💡 Blood glucose **alone** predicts diabetes better than BMI + age combined
 
-`XGBoost` `Streamlit` `sklearn Pipeline`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-orange?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-red?style=flat-square) ![sklearn](https://img.shields.io/badge/sklearn-yellow?style=flat-square)
 
 </td>
-
 </tr>
 <tr>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_03-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
 
-**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
+<img src="https://img.shields.io/badge/PROJECT_03-⚡_SUPERSTORE_BI-FFE66D?style=for-the-badge&logoColor=333"/>
 
-Analysis · Insights · Business Recommendations
+### ⚡ [SuperStore Sales Dashboard](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+
+[![View Project](https://img.shields.io/badge/View%20Project-FFE66D?style=for-the-badge&logoColor=333)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 
 ```
-🔴 Tables: negative profit margin
-⚠️ Discounts >20% destroy margin
-🗺️ West = highest profit region
-📈 Q4 seasonality pattern found
+Tool    : Power BI + Python EDA
+Forecast: 20-day ETS forecasting
+Finding : Tables = loss-making ❌
+Insight : Discount > 20% = loss
 ```
 
-**Key Finding:**
-> Business was losing money on Tables
-> while it appeared in revenue reports
+💡 Tables sub-category was **losing money silently** in revenue reports
 
-`Power BI` `DAX` `Python` `ETS Forecasting`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+![PowerBI](https://img.shields.io/badge/PowerBI-yellow?style=flat-square) ![Python](https://img.shields.io/badge/Python-blue?style=flat-square) ![DAX](https://img.shields.io/badge/DAX-purple?style=flat-square)
 
 </td>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_04-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
 
-**[View Project →](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)**
+<img src="https://img.shields.io/badge/PROJECT_04-📈_TRADER_BEHAVIOR-A8E6CF?style=for-the-badge&logoColor=333"/>
 
-Analysis · Insights · Business Recommendations
+### 📈 [Trader Behavior Insights](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+
+[![View Project](https://img.shields.io/badge/View%20Project-A8E6CF?style=for-the-badge&logoColor=333)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 
 ```
-🟢 Profitable traders: stable across both
-🔴 Undisciplined traders: blow up in Fear
-📉 High frequency + Fear = negative PnL
-🧠 Discipline > market conditions
+Data  : Hyperliquid + Fear&Greed
+Trades: 90,000+ analyzed
+Focus : Fear vs Greed behavior
+Result: Discipline > Conditions
 ```
 
-**Key Finding:**
-> Market sentiment does NOT explain
-> why traders fail — behavior does
+💡 **Discipline, not market conditions**, separates profitable traders
 
-`Python` `Pandas` `Seaborn` `Matplotlib`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square) ![Pandas](https://img.shields.io/badge/Pandas-purple?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-teal?style=flat-square)
 
 </td>
-
 </tr>
 </table>
-
 </div>
 <!-- PROJECTS:END -->
 
@@ -236,20 +214,20 @@ Statistics      ████████████░░░░░░░░░�
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=gauravnikam777-vision&show_icons=true&theme=radical&hide_border=true&count_private=true&title_color=FF6B6B&icon_color=FF6B6B"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravnikam777-vision&layout=compact&theme=radical&hide_border=true&title_color=FF6B6B"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=gauravnikam777-vision&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=FF6B6B&icon_color=FF6B6B&bg_color=1a1b27"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravnikam777-vision&layout=compact&theme=tokyonight&hide_border=true&title_color=FF6B6B&bg_color=1a1b27"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=gauravnikam777-vision&theme=radical&hide_border=true&ring=FF6B6B&fire=FF6B6B&currStreakLabel=FF6B6B)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=gauravnikam777-vision&theme=tokyonight&hide_border=true&ring=FF6B6B&fire=FF6B6B&currStreakLabel=FF6B6B&background=1a1b27)](https://git.io/streak-stats)
 
 </div>
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gauravnikam777-vision&theme=redical&bg_color=ffffff&color=FF6B6B&line=FF6B6B&point=333333&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gauravnikam777-vision&theme=tokyo-night&bg_color=1a1b27&color=FF6B6B&line=FF6B6B&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -259,7 +237,7 @@ Statistics      ████████████░░░░░░░░░�
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=gauravnikam777-vision&theme=radical&no-frame=true&no-bg=false&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=gauravnikam777-vision&theme=onestar&no-frame=true&no-bg=true&margin-w=8&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -283,7 +261,7 @@ Statistics      ████████████░░░░░░░░░�
 
 <div align="center">
 
-[![Jokes Card](https://readme-jokes.vercel.app/api?theme=radical&hideBorder)](https://github.com/ABSphreak/readme-jokes)
+[![Jokes Card](https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder)](https://github.com/ABSphreak/readme-jokes)
 
 </div>
 
