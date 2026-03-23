@@ -89,99 +89,115 @@
 ## 🚀 Projects — Click & Try Live
 
 <!-- PROJECTS:START -->
+
 <div align="center">
+
 <table>
 <tr>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT%2001-📉%20CHURN%20PREDICTION-FF6B6B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_01-📉_Customer_Churn-FF4757?style=for-the-badge"/>
 
-### 📉 [Customer Churn Prediction](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+**[🔴 LIVE → Try it now](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)**
 
-[![▶ TRY LIVE APP](https://img.shields.io/badge/▶%20TRY%20LIVE%20APP-FF6B6B?style=for-the-badge)](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)
+Upload data → Get predictions instantly
 
 ```
-📦 7,043 telecom customers analyzed
-🔴 High Risk  : 1,769  (25.1%)
-🟡 Medium Risk: 1,733  (24.6%)
-🟢 Low Risk   : 3,541  (50.3%)
+📦 7,043 customers analyzed
+🔴 1,769 flagged High Risk  
+🟡 1,733 flagged Medium Risk
+🟢 3,541 flagged Low Risk
 ```
 
-💡 **Key Finding:** Month-to-month customers churn **3× faster** than annual contract holders
+**Key Finding:**
+> Month-to-month customers churn
+> at **3× the rate** of annual holders
 
-`FastAPI` `Streamlit` `Logistic Regression` `scikit-learn` `Python`
+`FastAPI` `Streamlit` `Logistic Regression` `scikit-learn`
 
-[![Code](https://img.shields.io/badge/View%20Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+
 </td>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT%2002-🩺%20DIABETES%20RISK-4ECDC4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_02-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
 
-### 🩺 [Diabetes Risk Predictor](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+**[🟢 LIVE → Try it now](https://diabetes-prediction-app-pro.streamlit.app/)**
 
-[![▶ TRY LIVE APP](https://img.shields.io/badge/▶%20TRY%20LIVE%20APP-4ECDC4?style=for-the-badge)](https://diabetes-prediction-app-pro.streamlit.app/)
+Upload data → Get predictions instantly
+⭐ 1 stars
 
 ```
 📦 100,000 patient records
-🎯 Model   : XGBoost Classifier
-⚡ Output  : Risk Probability %
-🔬 Tiers   : High / Moderate / Low
+🎯 XGBoost Classifier
+⚡ Real-time probability score
+🔬 High / Moderate / Low risk tiers
 ```
 
-💡 **Key Finding:** Blood glucose **alone** predicts diabetes better than BMI + age combined
+**Key Finding:**
+> Blood glucose alone predicts diabetes
+> better than BMI + age combined
 
-`XGBoost` `Streamlit` `sklearn Pipeline` `Python`
+`XGBoost` `Streamlit` `sklearn Pipeline`
 
-[![Code](https://img.shields.io/badge/View%20Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+
 </td>
 
 </tr>
 <tr>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT%2003-⚡%20SUPERSTORE%20BI-FFE66D?style=for-the-badge&logoColor=333"/>
+<img src="https://img.shields.io/badge/PROJECT_03-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
 
-### ⚡ [SuperStore Sales Dashboard](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
 
-[![View Project](https://img.shields.io/badge/View%20Project-FFE66D?style=for-the-badge&logoColor=333)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+Analysis · Insights · Business Recommendations
 
 ```
-📊 Tool    : Power BI + Python EDA
-📅 Forecast: 20-day ETS prediction
-🔴 Problem : Tables = loss-making
-⚠️ Finding : Discount > 20% = loss
+🔴 Tables: negative profit margin
+⚠️ Discounts >20% destroy margin
+🗺️ West = highest profit region
+📈 Q4 seasonality pattern found
 ```
 
-💡 **Key Finding:** Tables sub-category was **losing money silently** despite showing in revenue
+**Key Finding:**
+> Business was losing money on Tables
+> while it appeared in revenue reports
 
 `Power BI` `DAX` `Python` `ETS Forecasting`
 
-[![Code](https://img.shields.io/badge/View%20Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+
 </td>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT%2004-📈%20TRADER%20BEHAVIOR-A8E6CF?style=for-the-badge&logoColor=333"/>
+<img src="https://img.shields.io/badge/PROJECT_04-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
 
-### 📈 [Trader Behavior Insights](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+**[View Project →](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)**
 
-[![View Project](https://img.shields.io/badge/View%20Project-A8E6CF?style=for-the-badge&logoColor=333)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+Analysis · Insights · Business Recommendations
 
 ```
-📊 Data  : Hyperliquid + Fear & Greed
-📦 Trades: 90,000+ real trades analyzed
-🎯 Focus : Sentiment vs Behavior
-🧠 Result: Discipline > Market Mood
+🟢 Profitable traders: stable across both
+🔴 Undisciplined traders: blow up in Fear
+📉 High frequency + Fear = negative PnL
+🧠 Discipline > market conditions
 ```
 
-💡 **Key Finding:** **Discipline, not market conditions**, separates consistently profitable traders
+**Key Finding:**
+> Market sentiment does NOT explain
+> why traders fail — behavior does
 
-`Python` `Pandas` `Seaborn` `Behavioral Analysis`
+`Python` `Pandas` `Seaborn` `Matplotlib`
 
-[![Code](https://img.shields.io/badge/View%20Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+
 </td>
 
 </tr>
 </table>
+
 </div>
 <!-- PROJECTS:END -->
 
