@@ -1,0 +1,100 @@
+{
+  "_readme": "This file lives in your gauravnikam777-vision/gauravnikam777-vision GitHub repo. Edit it on GitHub — portfolio updates automatically. Profile/avatar/bio come from GitHub directly.",
+
+  "profile": {
+    "title":    "Aspiring Data Analyst",
+    "subtitle": "I turn raw e-commerce data into decisions that actually move business metrics. From SQL queries to Power BI dashboards — I build the full picture.",
+    "bio":      "I'm Gaurav Govind Nikam — a data analyst fresher from Pune, Maharashtra with a BBA-CA background, currently pursuing MCA at Sinhgad Institute of Management, Pune. My focus is e-commerce analytics — understanding customer behavior, sales patterns, and operational data.",
+    "open_to_work": true,
+    "email":    "gauravnikam072@gmail.com",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/gaurav-nikam-44842a345",
+      "kaggle":   "https://www.kaggle.com/gnikam9211"
+    },
+    "stats": {
+      "years":    "1+",
+      "domain":   "E-commerce"
+    }
+  },
+
+  "skills": [
+    { "name": "Python",       "level": 75, "category": "Languages"     },
+    { "name": "SQL",          "level": 60, "category": "Languages"     },
+    { "name": "Pandas",       "level": 75, "category": "Libraries"     },
+    { "name": "NumPy",        "level": 70, "category": "Libraries"     },
+    { "name": "Power BI",     "level": 70, "category": "Visualization" },
+    { "name": "Tableau",      "level": 45, "category": "Visualization" },
+    { "name": "Matplotlib",   "level": 65, "category": "Visualization" },
+    { "name": "Excel",        "level": 75, "category": "Tools"         },
+    { "name": "Git / GitHub", "level": 65, "category": "Tools"         }
+  ],
+
+  "education": [
+    {
+      "degree":      "MCA — Master of Computer Applications",
+      "institution": "Sinhgad Institute of Management, Pune",
+      "university":  "SPPU",
+      "year_start":  "2024",
+      "year_end":    "Present",
+      "status":      "Pursuing",
+      "location":    "Pune, Maharashtra",
+      "description": "Specializing in data systems, analytics, and software engineering."
+    },
+    {
+      "degree":      "BBA-CA — Bachelor of Business Administration (Computer Applications)",
+      "institution": "Sinhgad College, Pune",
+      "university":  "SPPU",
+      "year_start":  "2021",
+      "year_end":    "2024",
+      "status":      "Completed",
+      "location":    "Pune, Maharashtra",
+      "description": "Foundation in business analytics, database management, and computing."
+    }
+  ],
+
+  "certifications": [
+    { "name": "Artificial Intelligence: Concepts & Techniques", "issuer": "NPTEL",                     "date": "Oct 2025", "credential_id": "NPTEL25CS159S1" },
+    { "name": "Machine Learning with Python",                   "issuer": "Anaconda",                   "date": "Nov 2025", "credential_id": "" },
+    { "name": "Machine Learning Statistical Foundations",       "issuer": "Wolfram Research",            "date": "Nov 2025", "credential_id": "" },
+    { "name": "Microsoft Azure AI Essentials",                  "issuer": "Microsoft",                  "date": "Nov 2025", "credential_id": "" },
+    { "name": "Azure Data Engineer Associate (DP-203) Prep",    "issuer": "LinkedIn / Microsoft Press",  "date": "Nov 2025", "credential_id": "" },
+    { "name": "Introduction to Large Language Models",          "issuer": "Google",                     "date": "Jul 2025", "credential_id": "16967960" },
+    { "name": "Introduction to Generative AI",                  "issuer": "Google",                     "date": "Jul 2025", "credential_id": "16967919" },
+    { "name": "British Airways Data Science Simulation",        "issuer": "Forage",                     "date": "Jun 2025", "credential_id": "ayhErmMB4ZoGw5" },
+    { "name": "Deloitte Australia Data Analytics Simulation",   "issuer": "Forage",                     "date": "Jun 2025", "credential_id": "o6DpBJWwJJ9Ck2" },
+    { "name": "Python 101 for Data Science",                    "issuer": "IBM",                        "date": "Jun 2025", "credential_id": "0706eed2569843" },
+    { "name": "Data Science Tools",                             "issuer": "IBM",                        "date": "Jun 2025", "credential_id": "0f383339f55843" },
+    { "name": "Data Science 101",                               "issuer": "IBM",                        "date": "Jun 2025", "credential_id": "56b724315fae4d" },
+    { "name": "Python Programming and SQL",                     "issuer": "ExcelR",                     "date": "Oct 2022", "credential_id": "" },
+    { "name": "Advanced Excel, PowerPoint & Word",              "issuer": "ExcelR",                     "date": "Nov 2022", "credential_id": "" }
+  ],
+
+  "project_overrides": {
+    "_readme": "Use this ONLY to add key_insight, override title, or set order. Description/tags/live_url all come from GitHub repo directly.",
+
+    "customer-churn-prediction": {
+      "emoji":       "📉",
+      "key_insight": "Month-to-month customers churn 3× faster than annual holders",
+      "order":       3
+    },
+    "diabetes-prediction-app": {
+      "emoji":       "🩺",
+      "key_insight": "Blood glucose alone beats BMI + Age as diabetes predictor",
+      "order":       2
+    },
+    "SuperStore-PowerBI-Sales-Forecast": {
+      "emoji":       "⚡",
+      "key_insight": "Tables sub-category was secretly losing money",
+      "order":       1
+    },
+    "Trader-Behavior-Insights": {
+      "emoji":       "📊",
+      "key_insight": "Discipline, not market conditions, separates profitable traders",
+      "order":       4
+    }
+  },
+
+  "hidden_repos": [
+    "cip-project"
+  ]
+}
