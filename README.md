@@ -147,7 +147,6 @@ Upload data → Get predictions instantly
 **[🟢 LIVE → Try it now](https://diabetes-prediction-app-pro.streamlit.app/)**
 
 Upload data → Get predictions instantly
-⭐ 1 stars
 
 ```
 📦 100,000 patient records
