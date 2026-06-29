@@ -1,125 +1,203 @@
+<div align="center">
+
 # Gaurav Govind Nikam
-**Data Analyst · ML Engineer · Business Intelligence**
 
-📍 Pune, India &nbsp;|&nbsp; 🟢 Open to Work &nbsp;|&nbsp; MCA @ SPPU
+### Data Analyst &nbsp;·&nbsp; ML Engineer &nbsp;·&nbsp; Business Intelligence
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-gauravnikam.vercel.app-blue?style=flat-square&logo=vercel)](https://gauravnikam.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/gaurav-nikam-44842a345)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/gnikam9211)
-[![Email](https://img.shields.io/badge/Email-gauravnikam072@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:gauravnikam072@gmail.com)
+<p>
+  <a href="https://gauravnikam.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/></a>&nbsp;
+  <a href="https://www.linkedin.com/in/gaurav-nikam-44842a345"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>&nbsp;
+  <a href="https://www.kaggle.com/gnikam9211"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white"/></a>&nbsp;
+  <a href="mailto:gauravnikam072@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+</p>
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=15&duration=3000&pause=1000&color=6B7280&center=true&vCenter=true&width=500&lines=Turning+raw+data+into+business+decisions.;3+live+apps+%7C+6+projects+%7C+14+certifications.;MCA+%40+SPPU+Pune+·+Open+to+Work" alt="Typing SVG" />
+
+</div>
 
 ---
 
-## About
+## About Me
 
-Aspiring Data Analyst with hands-on experience in SQL, Python, Power BI, and machine learning. I build end-to-end projects — from raw data to deployed applications — focused on generating actionable business insights. Every project listed here is live, verifiable, and built to solve a real problem.
+MCA student at SPPU Pune building end-to-end data projects — from SQL queries to deployed ML applications. I focus on translating data into decisions that matter to the business, not just accurate models.
 
-**Core skills:** Data Cleaning · EDA · Statistical Analysis · Predictive Modeling · Dashboard Development · ML Deployment
+What separates my work: every project is **live**, **verifiable**, and solves a real-world problem. No toy datasets. No notebooks-only deliverables.
+
+```
+📍 Pune, Maharashtra     🎓 MCA @ SPPU (2024–2026)     🟢 Open to Work (Fresher)
+```
+
+---
+
+## Impact Numbers
+
+<div align="center">
+
+| | | | |
+|:---:|:---:|:---:|:---:|
+| **3** | **100K+** | **7,043** | **14** |
+| Live Deployed Apps | Patient Records Analyzed | Telecom Customers Modeled | Certifications |
+
+</div>
 
 ---
 
 ## Projects
 
-### ⚖️ LexAI India — AI-Powered Legal Assistant
-> Making Indian legal information accessible to everyone, not just lawyers
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- Covers IPC, BNS 2023, CrPC, BNSS 2023 with conversational AI guidance
-- Built for citizens who don't know their rights — free, instant, in plain language
-- Final Year Project
+### ⚖️ LexAI India
+**AI-Powered Indian Legal Assistant**
 
-**Stack:** Python · NLP · LLM · Streamlit &nbsp;|&nbsp; [**Live App**](https://lexai-india.onrender.com/) · [**Code**](https://github.com/gauravnikam777-vision/LexAI)
+Legal help in India is expensive and inaccessible. LexAI gives every citizen instant guidance on IPC, BNS 2023, CrPC, and BNSS 2023 — free, in plain language.
 
----
+> *Final Year Project — from problem identification to production deployment*
+
+**Stack**
+`Python` `LLM` `NLP` `Streamlit`
+
+[![Live](https://img.shields.io/badge/Live_App-000?style=flat-square&logo=vercel)](https://lexai-india.onrender.com/)
+[![Code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/LexAI)
+
+</td>
+<td width="50%" valign="top">
 
 ### 📉 Customer Churn Prediction
-> Identifying which telecom customers will leave — before they do
+**Telecom Retention Intelligence**
 
-- Analyzed 7,043 customers across 20 features using Logistic Regression
-- Flagged 1,769 high-risk customers (25.1%) with actionable risk segmentation
-- Key insight: month-to-month contracts churn at **3× the rate** of annual contracts
+Analyzed 7,043 customers across 20 features. Identified **1,769 high-risk accounts (25.1%)** before they churned. Key finding: month-to-month contracts churn at **3× the rate** of annual plans.
 
-**Stack:** Python · Scikit-learn · FastAPI · Streamlit &nbsp;|&nbsp; [**Live App**](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/) · [**Code**](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+> *Deployed dashboard for real-time risk segmentation*
 
----
+**Stack**
+`Python` `Logistic Regression` `FastAPI` `Streamlit`
+
+[![Live](https://img.shields.io/badge/Live_App-000?style=flat-square&logo=vercel)](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)
+[![Code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/customer-churn-prediction)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🩺 Diabetes Risk Predictor
-> Real-time diabetes risk scoring from patient health metrics
+**Healthcare ML — 100K Patient Records**
 
-- XGBoost classifier trained on 100,000 patient records with 8 predictive features
-- Full ML pipeline: preprocessing → feature scaling → class imbalance handling → risk tiers
-- Key insight: HbA1c >6.5% is the clearest clinical signal, outperforming BMI + age combined
+XGBoost classifier with end-to-end ML pipeline: preprocessing, feature scaling, class imbalance handling, probability-based risk tiers. Finding: **HbA1c >6.5% predicts diabetes more reliably than BMI + age combined.**
 
-**Stack:** Python · XGBoost · Sklearn Pipeline · Streamlit &nbsp;|&nbsp; [**Live App**](https://diabetes-prediction-app-pro.streamlit.app/) · [**Code**](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+> *Deployed as real-time web application*
 
----
+**Stack**
+`XGBoost` `Sklearn Pipeline` `Python` `Streamlit`
 
-### 📊 SuperStore Sales Dashboard & Forecasting
-> Finding where a retail chain is actually making — and losing — money
+[![Live](https://img.shields.io/badge/Live_App-000?style=flat-square&logo=vercel)](https://diabetes-prediction-app-pro.streamlit.app/)
+[![Code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
 
-- Built Power BI dashboard with DAX measures across 4 regions, drill-down to sub-category level
-- Key insight: Tables sub-category showed **negative profit margin** despite appearing in revenue reports
-- Developed 20-day sales forecast with 95% confidence interval using ETS model
+</td>
+<td width="50%" valign="top">
 
-**Stack:** Power BI · DAX · Python · ETS Forecasting &nbsp;|&nbsp; [**Code & Report**](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+### 📊 SuperStore Sales Dashboard
+**Retail BI — Power BI + Python**
 
----
+Built multi-region dashboard with DAX measures and drill-down views. Surfaced a critical issue: **Tables sub-category was generating negative profit margin** while appearing healthy in top-level revenue reports. Delivered 20-day forecast (95% CI) using ETS model.
+
+> *Power BI · business insight that changed category strategy*
+
+**Stack**
+`Power BI` `DAX` `Python` `ETS Forecasting`
+
+[![Code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 📈 Trader Behavior Insights
-> Does market sentiment (Fear vs Greed) determine trading outcomes?
+**Behavioral Analytics — Fear vs Greed**
 
-- Analyzed Bitcoin trader behavior across Fear and Greed market conditions
-- Key insight: consistently profitable traders perform **stably in both** — undisciplined traders blow up specifically during Fear periods
-- Discipline, not market conditions, predicts long-term trading success
+Studied Bitcoin trader behavior under contrasting market conditions. Finding: profitable traders **perform consistently regardless of sentiment** — undisciplined traders specifically blow up during Fear periods. Discipline predicts outcomes, not market conditions.
 
-**Stack:** Python · Pandas · Seaborn · Matplotlib &nbsp;|&nbsp; [**Code & Report**](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+**Stack**
+`Python` `Pandas` `Seaborn` `Matplotlib`
 
----
+[![Code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 
-### 🗄️ SQL Practice
-> Structured query practice for real analytical work
+</td>
+<td width="50%" valign="top">
 
-- Window functions, CTEs, aggregations, joins, and query optimization patterns
-- Built for interview prep and production-level SQL fluency
+### 🗄️ SQL Practice Repository
+**Production-Level Query Patterns**
 
-**Stack:** SQL · MySQL &nbsp;|&nbsp; [**Code**](https://github.com/gauravnikam777-vision/sql-practice)
+Structured practice covering window functions, CTEs, complex joins, aggregations, and query optimization. Written to mirror real analyst interview and on-the-job scenarios.
+
+**Stack**
+`SQL` `MySQL` `Window Functions` `CTEs`
+
+[![Code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/sql-practice)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Tech Stack
 
-**Languages & Databases**
-`Python` `SQL` `MySQL`
+<div align="center">
 
-**Analysis & ML**
-`Pandas` `NumPy` `Scikit-learn` `XGBoost` `Matplotlib` `Seaborn`
+**Languages & Data**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+**Machine Learning**
+
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square)
 
 **Business Intelligence**
-`Power BI` `DAX` `Tableau` `Advanced Excel`
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 
 **Deployment & Tools**
-`Streamlit` `FastAPI` `Git` `GitHub` `Jupyter` `Google Colab`
+
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+</div>
 
 ---
 
-## Skill Levels
+## GitHub Stats
 
-```
-Python           ████████████████████░░   82%
-Pandas / NumPy   ████████████████████░░   80%
-Excel            ███████████████████░░░   78%
-Power BI         ████████████████░░░░░░   68%
-Machine Learning ████████████████░░░░░░   65%
-SQL              ███████████████░░░░░░░   62%
-Statistics       ████████████░░░░░░░░░░   52%
-Tableau          ████████░░░░░░░░░░░░░░   38%
-```
+<div align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=gauravnikam777-vision&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=ffffff&icon_color=6B7280&text_color=9CA3AF&bg_color=0d1117"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravnikam777-vision&layout=compact&theme=github_dark&hide_border=true&title_color=ffffff&text_color=9CA3AF&bg_color=0d1117"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=gauravnikam777-vision&theme=github-dark-blue&hide_border=true&background=0d1117&ring=6B7280&fire=6B7280&currStreakLabel=9CA3AF"/>
+</div>
 
 ---
 
 ## Certifications
 
 <details>
-<summary>View all 14 certifications</summary>
+<summary><b>14 Certifications — Click to expand</b></summary>
+<br/>
 
 | Certificate | Issuer | Year |
 |:---|:---|:---:|
@@ -130,7 +208,7 @@ Tableau          ████████░░░░░░░░░░░░░
 | Azure Data Engineer Associate (DP-203) Prep | Microsoft Press | 2025 |
 | Introduction to Large Language Models | Google | 2025 |
 | Introduction to Generative AI | Google | 2025 |
-| British Airways Data Science Job Simulation | Forage | 2025 |
+| British Airways Data Science Simulation | Forage | 2025 |
 | Deloitte Australia Data Analytics Simulation | Forage | 2025 |
 | Python 101 for Data Science | IBM | 2025 |
 | Data Science Tools | IBM | 2025 |
@@ -142,25 +220,16 @@ Tableau          ████████░░░░░░░░░░░░░
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=gauravnikam777-vision&show_icons=true&theme=default&hide_border=true&count_private=true"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravnikam777-vision&layout=compact&theme=default&hide_border=true"/>
-</div>
-
----
-
 ## Education
 
-**Master of Computer Applications (MCA)** — Sinhgad Institute of Management, Pune · 2024–2026
+**Master of Computer Applications (MCA)**
+Sinhgad Institute of Management, Pune &nbsp;·&nbsp; 2024 – 2026
 
-**BBA – Computer Applications (BBA-CA)** — Savitribai Phule Pune University · 2021–2024
+**Bachelor of Business Administration – Computer Applications (BBA-CA)**
+Savitribai Phule Pune University &nbsp;·&nbsp; 2021 – 2024
 
 ---
 
 <div align="center">
-
-*Pune, Maharashtra 🇮🇳 · Fresher · Building in Public*
-
+  <sub>📍 Pune, Maharashtra · Open to Data Analyst / ML Engineer roles · <a href="mailto:gauravnikam072@gmail.com">gauravnikam072@gmail.com</a></sub>
 </div>
