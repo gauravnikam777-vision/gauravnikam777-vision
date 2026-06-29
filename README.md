@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=750&lines=🎯+Aspiring+Data+Analyst+%7C+Pune%2C+India+🇮🇳;📊+SQL+%7C+Python+%7C+Power+BI+%7C+XGBoost;🚀+2+Live+ML+Apps+Deployed+on+Streamlit+Cloud;🛒+E-commerce+%7C+Churn+%7C+Forecasting+%7C+BI;🟢+Open+to+Work+%7C+Fresher+%7C+MCA+%40+SPPU)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=750&lines=🎯+Aspiring+Data+Analyst+%7C+Pune%2C+India+🇮🇳;📊+SQL+%7C+Python+%7C+Power+BI+%7C+XGBoost;🚀+3+Live+Apps+Deployed+%7C+1+Final+Year+Project;🛒+E-commerce+%7C+Churn+%7C+Forecasting+%7C+Legal+AI;🟢+Open+to+Work+%7C+Fresher+%7C+MCA+%40+SPPU)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,7 +12,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58A6FF&labelColor=0d1117&color=58A6FF)](https://gaurav-nikam-777.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58A6FF&labelColor=0d1117&color=58A6FF)](https://gauravnikam.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117&color=0A66C2)](https://www.linkedin.com/in/gaurav-nikam-44842a345)
 [![Kaggle](https://img.shields.io/badge/Kaggle-0d1117?style=for-the-badge&logo=kaggle&logoColor=20BEFF&labelColor=0d1117&color=20BEFF)](https://www.kaggle.com/gnikam9211)
 [![Gmail](https://img.shields.io/badge/Hire%20Me-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117&color=EA4335)](mailto:gauravnikam072@gmail.com)
@@ -34,13 +34,15 @@
 
 🎓 **BBA-CA** *(Completed)* · **MCA** *(@ SPPU Pune)*
 
-🔍 **Specialization:** E-commerce Analytics
+🔍 **Specialization:** E-commerce & Applied ML
 - Customer Churn & Retention
 - Sales Forecasting & BI
 - End-to-End ML Deployment
+- AI-Powered Legal Systems
 
 🚀 **Proof of Work:**
-- 2 Live Apps on Streamlit Cloud
+- 3 Live Apps Deployed
+- 1 Final Year Project (LexAI)
 - FastAPI + Streamlit architecture
 - Power BI dashboards with DAX
 - SQL with Window Functions
@@ -84,7 +86,7 @@ flowchart LR
 </tr>
 <tr>
 <td>Submit Kaggle notebooks, call it a project</td>
-<td><b>2 live apps deployed</b> — anyone can open & use them right now</td>
+<td><b>3 live deployed apps</b> — anyone can open & use them right now</td>
 </tr>
 <tr>
 <td>Only know Python, nothing deployed</td>
@@ -92,7 +94,7 @@ flowchart LR
 </tr>
 <tr>
 <td>Generic datasets (Titanic, Iris)</td>
-<td><b>Real business domains:</b> Telecom churn, Healthcare, E-commerce</td>
+<td><b>Real domains:</b> Telecom churn, Healthcare, Legal AI, Trading</td>
 </tr>
 <tr>
 <td>Pretty charts, no business meaning</td>
@@ -100,7 +102,7 @@ flowchart LR
 </tr>
 <tr>
 <td>14 certificates, 0 shipped products</td>
-<td><b>14 certificates + 2 live apps + verifiable GitHub</b> — everything public</td>
+<td><b>14 certificates + 3 live apps + 1 FYP + verifiable GitHub</b></td>
 </tr>
 </table>
 
@@ -118,7 +120,31 @@ flowchart LR
 <tr>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_01-📉_Customer_Churn-FF4757?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_01-⚖️_LexAI_India-7C3AED?style=for-the-badge"/>
+
+**[🟣 LIVE → Try it now](https://lexai-india.onrender.com/)**
+
+AI-Powered Indian Legal Assistance System
+
+```
+⚖️ Covers IPC, BNS 2023, CrPC, BNSS 2023
+🇮🇳 Free instant legal guidance
+🤖 AI + ML based system
+📌 Final Year Project
+```
+
+**Key Finding:**
+> Legal help in India is expensive &
+> inaccessible — LexAI fixes that
+
+`Python` `AI/LLM` `NLP` `Indian Law`
+
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/LexAI)
+
+</td>
+
+<td align="center" width="50%">
+<img src="https://img.shields.io/badge/PROJECT_02-📉_Customer_Churn-FF4757?style=for-the-badge"/>
 
 **[🔴 LIVE → Try it now](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)**
 
@@ -126,7 +152,7 @@ Upload data → Get predictions instantly
 
 ```
 📦 7,043 customers analyzed
-🔴 1,769 flagged High Risk  
+🔴 1,769 flagged High Risk (25.1%)
 🟡 1,733 flagged Medium Risk
 🟢 3,541 flagged Low Risk
 ```
@@ -141,27 +167,54 @@ Upload data → Get predictions instantly
 
 </td>
 
+</tr>
+<tr>
+
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_02-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_03-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
 
 **[🟢 LIVE → Try it now](https://diabetes-prediction-app-pro.streamlit.app/)**
 
 Upload data → Get predictions instantly
 
 ```
-📦 100,000 patient records
+📦 100,000 patient records · 8 features
 🎯 XGBoost Classifier
 ⚡ Real-time probability score
 🔬 High / Moderate / Low risk tiers
 ```
 
 **Key Finding:**
-> Blood glucose alone predicts diabetes
-> better than BMI + age combined
+> HbA1c >6.5% is the clearest signal —
+> blood glucose beats BMI + age combined
 
-`XGBoost` `Streamlit` `sklearn Pipeline`
+`XGBoost` `Streamlit` `sklearn Pipeline` `Healthcare`
 
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
+
+</td>
+
+<td align="center" width="50%">
+<img src="https://img.shields.io/badge/PROJECT_04-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
+
+**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
+
+Analysis · Insights · Business Recommendations
+
+```
+🔴 Tables sub-category: negative margin
+⚠️ Discounts >20% destroy profitability
+🗺️ West = highest profit region
+📈 20-day forecast · 95% confidence
+```
+
+**Key Finding:**
+> Tables appeared in revenue reports
+> while silently losing the business money
+
+`Power BI` `DAX` `Python` `ETS Forecasting` `Retail`
+
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 
 </td>
 
@@ -169,50 +222,50 @@ Upload data → Get predictions instantly
 <tr>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_03-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
-
-**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
-
-Analysis · Insights · Business Recommendations
-
-```
-🔴 Tables: negative profit margin
-⚠️ Discounts >20% destroy margin
-🗺️ West = highest profit region
-📈 Q4 seasonality pattern found
-```
-
-**Key Finding:**
-> Business was losing money on Tables
-> while it appeared in revenue reports
-
-`Power BI` `DAX` `Python` `ETS Forecasting`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
-
-</td>
-
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_04-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_05-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
 
 **[View Project →](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)**
 
-Analysis · Insights · Business Recommendations
+Fear vs Greed · Behavior Analysis
 
 ```
-🟢 Profitable traders: stable across both
-🔴 Undisciplined traders: blow up in Fear
+🟢 Profitable traders: stable in both
+🔴 Bad traders blow up during Fear
 📉 High frequency + Fear = negative PnL
-🧠 Discipline > market conditions
+🧠 Bitcoin · Market Sentiment Analysis
 ```
 
 **Key Finding:**
 > Market sentiment does NOT explain
-> why traders fail — behavior does
+> why traders fail — their behavior does
 
-`Python` `Pandas` `Seaborn` `Matplotlib`
+`Python` `Pandas` `Seaborn` `Matplotlib` `Trading`
 
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+
+</td>
+
+<td align="center" width="50%">
+<img src="https://img.shields.io/badge/PROJECT_06-🗄️_SQL_Practice-4479A1?style=for-the-badge"/>
+
+**[View Project →](https://github.com/gauravnikam777-vision/sql-practice)**
+
+Structured Query Language · Deep Practice
+
+```
+📝 Real-world SQL query patterns
+🔍 Window Functions & CTEs
+📊 Aggregations & Joins
+⚙️ Query optimization techniques
+```
+
+**Key Finding:**
+> SQL is the language every analyst
+> must speak fluently — practised here
+
+`SQL` `MySQL` `Window Functions` `Analytics`
+
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/sql-practice)
 
 </td>
 
@@ -346,7 +399,7 @@ Tableau         ████████░░░░░░░░░░░░░�
 ### 💼 Let's Connect!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-nikam-44842a345)&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://gaurav-nikam-777.vercel.app)&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://gauravnikam.vercel.app)&nbsp;
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gauravnikam072@gmail.com)
 
 <br/>
