@@ -120,31 +120,7 @@ flowchart LR
 <tr>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_01-⚖️_LexAI_India-7C3AED?style=for-the-badge"/>
-
-**[🟣 LIVE → Try it now](https://lexai-india.onrender.com/)**
-
-AI-Powered Indian Legal Assistance System
-
-```
-⚖️ Covers IPC, BNS 2023, CrPC, BNSS 2023
-🇮🇳 Free instant legal guidance
-🤖 AI + ML based system
-📌 Final Year Project
-```
-
-**Key Finding:**
-> Legal help in India is expensive &
-> inaccessible — LexAI fixes that
-
-`Python` `AI/LLM` `NLP` `Indian Law`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/LexAI)
-
-</td>
-
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_02-📉_Customer_Churn-FF4757?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_01-📉_Customer_Churn-FF4757?style=for-the-badge"/>
 
 **[🔴 LIVE → Try it now](https://customer-churn-prediction-7dmchid9v9vkkyigyn3ivc.streamlit.app/)**
 
@@ -152,7 +128,7 @@ Upload data → Get predictions instantly
 
 ```
 📦 7,043 customers analyzed
-🔴 1,769 flagged High Risk (25.1%)
+🔴 1,769 flagged High Risk  
 🟡 1,733 flagged Medium Risk
 🟢 3,541 flagged Low Risk
 ```
@@ -167,54 +143,27 @@ Upload data → Get predictions instantly
 
 </td>
 
-</tr>
-<tr>
-
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_03-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_02-🩺_Diabetes_Risk-2ED573?style=for-the-badge"/>
 
 **[🟢 LIVE → Try it now](https://diabetes-prediction-app-pro.streamlit.app/)**
 
 Upload data → Get predictions instantly
 
 ```
-📦 100,000 patient records · 8 features
+📦 100,000 patient records
 🎯 XGBoost Classifier
 ⚡ Real-time probability score
 🔬 High / Moderate / Low risk tiers
 ```
 
 **Key Finding:**
-> HbA1c >6.5% is the clearest signal —
-> blood glucose beats BMI + age combined
+> Blood glucose alone predicts diabetes
+> better than BMI + age combined
 
-`XGBoost` `Streamlit` `sklearn Pipeline` `Healthcare`
+`XGBoost` `Streamlit` `sklearn Pipeline`
 
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/diabetes-prediction-app)
-
-</td>
-
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_04-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
-
-**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
-
-Analysis · Insights · Business Recommendations
-
-```
-🔴 Tables sub-category: negative margin
-⚠️ Discounts >20% destroy profitability
-🗺️ West = highest profit region
-📈 20-day forecast · 95% confidence
-```
-
-**Key Finding:**
-> Tables appeared in revenue reports
-> while silently losing the business money
-
-`Power BI` `DAX` `Python` `ETS Forecasting` `Retail`
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 
 </td>
 
@@ -222,50 +171,50 @@ Analysis · Insights · Business Recommendations
 <tr>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_05-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_03-⚡_SuperStore_BI-FFA502?style=for-the-badge"/>
 
-**[View Project →](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)**
+**[View Project →](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)**
 
-Fear vs Greed · Behavior Analysis
+Analysis · Insights · Business Recommendations
 
 ```
-🟢 Profitable traders: stable in both
-🔴 Bad traders blow up during Fear
-📉 High frequency + Fear = negative PnL
-🧠 Bitcoin · Market Sentiment Analysis
+🔴 Tables: negative profit margin
+⚠️ Discounts >20% destroy margin
+🗺️ West = highest profit region
+📈 Q4 seasonality pattern found
 ```
 
 **Key Finding:**
-> Market sentiment does NOT explain
-> why traders fail — their behavior does
+> Business was losing money on Tables
+> while it appeared in revenue reports
 
-`Python` `Pandas` `Seaborn` `Matplotlib` `Trading`
+`Power BI` `DAX` `Python` `ETS Forecasting`
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/SuperStore-PowerBI-Sales-Forecast)
 
 </td>
 
 <td align="center" width="50%">
-<img src="https://img.shields.io/badge/PROJECT_06-🗄️_SQL_Practice-4479A1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT_04-📈_Trader_Behavior-1E90FF?style=for-the-badge"/>
 
-**[View Project →](https://github.com/gauravnikam777-vision/sql-practice)**
+**[View Project →](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)**
 
-Structured Query Language · Deep Practice
+Analysis · Insights · Business Recommendations
 
 ```
-📝 Real-world SQL query patterns
-🔍 Window Functions & CTEs
-📊 Aggregations & Joins
-⚙️ Query optimization techniques
+🟢 Profitable traders: stable across both
+🔴 Undisciplined traders: blow up in Fear
+📉 High frequency + Fear = negative PnL
+🧠 Discipline > market conditions
 ```
 
 **Key Finding:**
-> SQL is the language every analyst
-> must speak fluently — practised here
+> Market sentiment does NOT explain
+> why traders fail — behavior does
 
-`SQL` `MySQL` `Window Functions` `Analytics`
+`Python` `Pandas` `Seaborn` `Matplotlib`
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/sql-practice)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/gauravnikam777-vision/Trader-Behavior-Insights)
 
 </td>
 
